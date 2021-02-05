@@ -80,6 +80,7 @@ dependencies {
     testImplementation "androidx.test:core-ktx:$androidXTestCoreVersion"
     testImplementation "org.robolectric:robolectric:$robolectricVersion"
     testImplementation "androidx.arch.core:core-testing:$archTestingVersion"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutinesVersion"
 
     // Dependencies for Android instrumented unit tests
     androidTestImplementation "junit:junit:$junitVersion"
